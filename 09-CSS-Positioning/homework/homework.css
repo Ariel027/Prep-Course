@@ -7,32 +7,90 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: center;
 }
 
-
 /* Ejercicio 2: Posicionar el header */
-
 /* Acá va tu código */
 
-
+#ejercicioDos {
+    display: none;
+}
 
 /* Ejercicio 3: */
-
 /* Acá va tu código */
 
-
+#ejercicioTres {
+    position: absolute;
+    top: 100px;
+    left: 200px; 
+}
 
 /* Ejercicio 4: */
-
 /* Acá va tu código */
 
-
+#ejercicioCuatro {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
 
 /* Ejercicio 5: */
-
 /* Acá va tu código */
 
-
+#ejercicioCinco {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
 
 /* Ejercicio 6. */
+
+/* ::::: SOLUCION EN EL PUNTO ANTERIOR ::::: */
+
+
+/* Ejercicio 7. */
+
+#ejercicioSiete {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+#elementoUno {
+    align-self: center;
+    background-color: blue;
+    color: yellow;
+}
+
+#elementoDos {
+    visibility: hidden;
+    /* CTRL+K CTRL+C */
+    background-color: red;
+    color: white;
+    align-self: center;
+    order: 1;
+}
+
+#elementoTres {
+    align-self: start;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+#elementoCuatro {
+    font-size: 8px;
+    background-color: yellow;
+    align-self: flex-end;
+}
+
+/* PUNTO EXTRA 1 */
+
+/* https://flexboxfroggy.com/#es */
+
+
+/* PUNTO EXTRA 2 */
+
+/* http://cssgridgarden.com/#es */
