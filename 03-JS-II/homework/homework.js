@@ -13,7 +13,7 @@ function obtenerMayor(x, y) {
       return y;
     }
       else if (x === y) {
-        return x || x
+        return x || x;
       }
 }
 
@@ -64,7 +64,7 @@ function saludo(idioma) {
       else if ( idioma === "ingles" ) {
         return "Hello!";
       }
-        return "Hola!";
+      return "Hola!";
 }
 
 function colors(color) {
@@ -133,7 +133,6 @@ function esEntero(numero) {
   // Tu código:
 
   // return numero === Math.floor(numero)
-  // 
   
   if (Math.floor(numero) || numero === 0) {
     return true;
@@ -167,7 +166,6 @@ function operadoresLogicos(num1, num2, num3) {
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false.
 
-
     // if (num1 || num2 || num3 === 0) {
     //   return "Error";
     // }
@@ -184,7 +182,7 @@ function operadoresLogicos(num1, num2, num3) {
         else if (num3 > num1 && num3 > num2 ) {
           return num3 + 1;
         }
-        return false
+        return false;
 }
 
 function esPrimo(numero) {
@@ -199,10 +197,10 @@ function esPrimo(numero) {
   }
     for (var i = 2 ; i < numero; i++) {
       if (numero % i === 0) {
-        return false
+        return false;
       }
     }
-    return true
+    return true;
 }
 
 function esVerdadero(valor){
@@ -220,8 +218,24 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
+  /**/
 
+  // var count = 0;
+  // var i = 6;
+  // var tablaDelSeis = [];
   
+  // while ( count <= 10 ) {
+  //   tablaDelSeis.push ( i * count++ );
+  //   }
+  // console.log ( tablaDelSeis );
+
+  let tabla = [];
+
+  for ( i = 0; i <= 10; i++ ) {
+    tabla.push ( 6 *i )
+  }
+  return tabla
+
 }
 
 function tieneTresDigitos(numero){
@@ -240,6 +254,14 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
 
+var i = 0;
+var a = numero;
+  
+  do {
+    i = i + 1;
+    a = a + 5;
+  } while ( i < 8 );
+  return a;
   
 }
 
